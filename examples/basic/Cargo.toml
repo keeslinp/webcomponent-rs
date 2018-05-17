@@ -1,0 +1,8 @@
+[package]
+name = "web-component-test"
+version = "0.1.0"
+authors = ["Pearce Keesling <keeslinp@gmail.com>"]
+
+[dependencies]
+stdweb = "0.4.6"
+webcomponent-rs = { path = "../.." }

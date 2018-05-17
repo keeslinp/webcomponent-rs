@@ -1,0 +1,7 @@
+[package]
+name = "webcomponent-rs"
+version = "0.1.0"
+authors = ["Pearce Keesling <keeslinp@gmail.com>"]
+
+[dependencies]
+stdweb = "0.4.6"
