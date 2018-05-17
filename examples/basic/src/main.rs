@@ -34,6 +34,14 @@ impl IComponent for TestComponent {
             element.set_attribute("count", "0").unwrap();
         }
     }
+
+    fn observed_attributes() -> &'static [&'static str] {
+        &["flavor"]
+    }
+
+    fn attribute_changed_callback(&mut self, element: HtmlElement, _name: String, _old_value: String, _new_value: String) {
+        update_dom(element);
+    }
 }
 
 fn main() {
