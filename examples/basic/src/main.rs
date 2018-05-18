@@ -1,6 +1,7 @@
 extern crate stdweb;
+#[macro_use]
 extern crate webcomponent_rs;
-use stdweb::{ web::{ HtmlElement, INode, Node, IElement, IEventTarget, event::ClickEvent} };
+use stdweb::{ web::{ HtmlElement, INode, Node, IElement, IEventTarget, event::{ ClickEvent }} };
 use webcomponent_rs::*;
 
 #[derive(Default)]
